@@ -38,7 +38,7 @@ inline void getlined(fstream &stream, vector<double> &result) {
     stream.getline(str, 512);
     //split(result, str);
 
-	vector<string> tokens = split(str, ' ');
+	vector<string> tokens = split(str, {' '});
 	for (auto &token : tokens) {
 		result.push_back(std::stod(token));
 	}

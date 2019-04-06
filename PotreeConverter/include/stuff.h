@@ -110,7 +110,7 @@ namespace Potree {
 
 	vector<string> split(string str, vector<char> delimiters);
 
-	vector<string> split(string str, char delimiter);
+//	vector<string> split(string str, char delimiter);
 
 	// see https://stackoverflow.com/questions/216823/whats-the-best-way-to-trim-stdstring
 	string ltrim(string s);
